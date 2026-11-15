@@ -1,0 +1,7 @@
+GET /mooc-ans/mooc2/work/view?courseId=<COURSE_ID>&classId=<CLASS_ID>&cpi=<CPI>&workId=<WORK_ID>&answerId=<ANSWER_ID>&enc=<ENC> HTTP/1.1
+Host: mooc1.chaoxing.com
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
+Cookie: _uid=<YOUR_UID>; fid=<YOUR_FID>; p_auth_token=<YOUR_TOKEN>; ...
+Referer: https://mooc1.chaoxing.com/
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0

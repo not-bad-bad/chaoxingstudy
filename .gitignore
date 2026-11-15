@@ -1,0 +1,54 @@
+# ===== 登录态与隐私（务必不要提交）=====
+# curl.txt 里是完整 Cookie，等同于账号密码，泄露 = 别人可以顶着你登录
+curl.txt
+*curl*.txt
+!examples/curl.example.txt
+headers.txt
+cookies.txt
+*.cookie
+.env
+.env.*
+
+# ===== 抓取/解析产物 =====
+# 原始 HTML 含课程内容与个人信息，仓库里不放
+页面样本/
+samples/
+debug_*.html
+*_skeleton.txt
+probe2_result.txt
+check_out.txt
+dowork_debug.html
+dowork_skeleton.txt
+
+# ===== 生成物 =====
+作业题目导出*.docx
+~$*.docx
+*.docx.tmp
+output/
+out/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 日志 =====
+*.log
